@@ -1,0 +1,13 @@
+Upload and overwrite:
+- storage/google_oauth.py
+- app.py
+- VERSION
+- docs/CHANGELOG.md
+
+No Render environment changes are required.
+
+After deployment:
+1. Confirm version 0.9.1.1.
+2. Open a fresh /google/oauth/start URL.
+3. Complete Google authorization without redeploying Render in between.
+4. Save the returned Refresh Token and Folder ID into Render.
